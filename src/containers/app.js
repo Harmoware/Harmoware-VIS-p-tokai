@@ -14,6 +14,11 @@ const obj_1F = '../../obj/p_tokai_1F_joined.obj';
 const obj_3F = '../../obj/p_tokai_3F_joined.obj';
 
 class App extends Container {
+  componentDidMount(){
+    super.componentDidMount();
+    this.props.actions.setViewport({ zoom:16.0 });
+  }
+
   render() {
     const { actions, clickedObject, inputFileName, viewport,
       routePaths, movesbase, movedData } = this.props;
