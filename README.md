@@ -1,22 +1,24 @@
-# harmoware-demo
+# Harmoware-VIS-p-tokai
 
 ## Install
 ```
-git clone https://github.com/Harmoware/Harmoware-VIS-Demo.git
+git clone https://github.com/Harmoware/Harmoware-VIS-p-tokai.git
 
-cd Harmoware-VIS-Demo
+cd Harmoware-VIS-p-tokai
 
 npm install
 ```
-## Enter your Mapbox access token in the source code
-src\containers\app.js : Line 6
-```
-6 | const MAPBOX_TOKEN = '< Enter your Mapbox access token >'; //Acquire Mapbox accesstoken
+
+## Mapbox Accesstoken Setting
+Get the Accesstoken from [mapbox.com](https://www.mapbox.com/ "mapbox.com").
+
+#!shell
+ set MAPBOX_ACCESS_TOKEN=XXXXXXXXX
 ```
 
 ## Run
 ```
-npm start
+yarn run start
 ```
 
 ## Tutorial
@@ -29,4 +31,4 @@ Refer to [github](https://github.com/Harmoware/Harmoware-VIS "Harmoware-VIS gith
 Refer to [gitbook](https://harmoware-vis.gitbook.io/ "Harmoware-VIS Document").
 
 ## License
-This project is licensed under the [Apache License 2.0](https://github.com/Harmoware/Harmoware-VIS-Demo/blob/master/LICENSE).
+This project is licensed under the [Apache License 2.0](https://github.com/Harmoware/Harmoware-VIS-p-tokai/blob/main/LICENSE).
