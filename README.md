@@ -12,7 +12,7 @@ yarn install
 ## Mapbox Accesstoken Setting
 Get the Accesstoken from [mapbox.com](https://www.mapbox.com/ "mapbox.com").
 
-#!shell
+```
  set MAPBOX_ACCESS_TOKEN=XXXXXXXXX
 ```
 
