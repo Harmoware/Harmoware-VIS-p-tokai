@@ -6,7 +6,7 @@ git clone https://github.com/Harmoware/Harmoware-VIS-p-tokai.git
 
 cd Harmoware-VIS-p-tokai
 
-npm install
+yarn install
 ```
 
 ## Mapbox Accesstoken Setting
